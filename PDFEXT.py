@@ -31,7 +31,6 @@ parts1 = []
 
 print('\n Just a moment, data is being retrieved to determine the file name\n')
 for i in trange(numPages):
-    #Обращаемся к первой страницы файла 
     page = reader.pages[i]
     #Put page text and font height into lists 
     def visitor_body(text, cm, tm, fontDict, fontSize):
